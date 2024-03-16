@@ -32,3 +32,22 @@ a {
 img {
   width: 100%;
 }
+address {
+  all: initial;
+  list-style: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+button,
+input[type="submit"] {
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: none;
+}

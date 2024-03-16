@@ -13,12 +13,12 @@
     <header>
       <div class="header__menu">
         <nav class="header__links-list">
-          <li class="header__links-list-item"><a>главная</a></li>
-          <li class="header__links-list-item"><a>посмотреть лоты</a></li>
-          <li class="header__links-list-item"><a>об аукционе</a></li>
+          <li class="nav__links"><a href="#main">главная</a></li>
+          <li class="nav__links"><a href="#lots">посмотреть лоты</a></li>
+          <li class="nav__links"><a href="#about">об аукционе</a></li>
         </nav>
         <div class="header__logo">
-          <a class="header__logo-image"><img src="images/logo-black.svg" /></a>
+          <a href="#main" class="header__logo-image"><img src="images/logo-black.svg" /></a>
         </div>
         <address class="address">
           <li><a href="tel:+99995555555">+9 999 555 5555</a></li>
@@ -31,7 +31,7 @@
       </div>
     </header>
     <main>
-      <section class="cover">
+      <section id="main" class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
           о<span class="letter-spacing-extended">но</span
@@ -48,7 +48,7 @@
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
-      <section class="lots">
+      <section id="lots" class="lots">
         <h2 class="lots__headding">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
@@ -103,10 +103,55 @@
         </ul>
         <a href="#" class="lots__look-more-line">посмотреть больше</a>
       </section>
-      <section>
-        
+      <section id="about" class="block_about">
+        <div class="about_left">
+          <div class="about_logo">
+            <img src="./images/logo-white.svg" alt="" />
+          </div>
+        </div>
+        <div class="about_right">
+          <p class="about__title">Об аукционе</p>
+          <p class="about_text">
+            Здесь вы не встретите очередное пафосное собрание невероятно
+            дорогого антиквариата. Наши лоты вообще не должны были попасть ни
+            на один аукцион. Потому что кому нужен дневник девочки-подростка
+            или картина, которую может нарисовать даже ребёнок? Кому нужны все
+            эти странные вещи, созданные любителями?
+          </p>
+          <p class="about_text">
+            Слишком сложные или, наоборот, слишком простые. Опережающие своё
+            время. В пух и прах растерзанные критиками. Непринятые и
+            непонятые. Когда-то они казались просто неудачными. Но, несмотря
+            на критику, кажущуюся простоту или сложность, сейчас без этих
+            лотов невозможно представить современную культуру. Когда в эти
+            вещи не верил никто, продолжали верить их создатели. И сейчас эти
+            лоты стали культовыми.
+          </p>
+        </div>
       </section>
+    </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="fotter_block">
+        <address class="address">
+          <li><a href="tel:+99995555555">+9 999 555 5555</a></li>
+          <li><a href="info@sobaka.ge">info@sobaka.ge</a></li>
+          <li>
+            наб. Принсенграхт 263-<br />
+            265, Амстердам
+          </li>
+        </address>
+        <ul class="footer__menu">
+          <li class="nav__links"><a href="#main">главная</a></li>
+          <li class="nav__links"><a href="#lots">посмотреть лоты</a></li>
+          <li class="nav__links"><a href="#about">об аукционе</a></li>
+        </ul>
+        <div class="fotter_img">
+          <a class="footer__social-icon" href="https://www.youtube.com"><img src="./images/yt.svg" alt="" /></a>
+          <a class="footer__social-icon" href="https://vk.com/im"><img src="./images/vk.svg" alt="" /></a>
+          <a class="footer__social-icon" href="https://ru.pinterest.com"><img src="./images/pinterest.svg" alt="" /></a>
+        </div> 
+      </div>
+    </footer>
   </body>
 </html>

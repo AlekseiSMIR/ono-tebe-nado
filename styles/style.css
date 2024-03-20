@@ -38,6 +38,18 @@
   width: 148px;
   height: 105px;
 }
+address {
+  all: initial;
+  list-style: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+  letter-spacing: 0.01em;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
 .adress__text {
   letter-spacing: 0;
 }
@@ -99,7 +111,6 @@
   text-transform: uppercase;
   text-align: center;
   color: #fff;
-
   border: 1px solid #fff;
   padding: 12px 30px;
 }
@@ -174,7 +185,6 @@
 }
 .block_about {
   padding: 0 23px 170px 23px;
-
   display: flex;
   align-content: space-between;
   gap: 72px;
@@ -183,7 +193,7 @@
   padding-left: 47px;
   padding-top: 50px;
 }
-.about_right{
+.about_right {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -209,14 +219,13 @@
   padding-top: 133px;
   padding-bottom: 76px;
 }
-.about_text{
+.about_text {
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0,01em;
+  letter-spacing: 0, 01em;
   color: #000;
 }
-
 .letter-spacing-extended {
   letter-spacing: 0.6em;
 }
